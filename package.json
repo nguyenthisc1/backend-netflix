@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "nodemon backend/server.js",
 		"start": "nodemon",
-		"build": "npm install"
+		"build": "pnpm install"
 	},
 	"keywords": [],
 	"author": "",
