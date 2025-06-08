@@ -3,9 +3,11 @@ import bcryptjs from "bcryptjs";
 import { generateTokenAndSetCookie } from "../utils/generateToken.js";
 
 export async function signup(req, res) {
+	console.log("🚀 ~ signup ~ req, res:", req, res)
 	try {
 
 		const { email, password } = req.body;
+		console.log("🚀 ~ signup ~ email, password:", email, password)
 	
 		if (!email || !password) {
 			return res.status(400).json({ success: false, message: "All fields are required" });
