@@ -5,7 +5,7 @@
 	"main": "backend/server.js",
 	"scripts": {
 		"dev": "nodemon backend/server.js",
-		"start": "nodemon",
+		"start": "node backend/server.js",
 		"build": "pnpm install"
 	},
 	"keywords": [],
